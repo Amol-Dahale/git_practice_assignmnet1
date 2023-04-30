@@ -19,4 +19,12 @@ function prime(a)
 }
 
 let no = 25;
-console.log(no);
+let ans = prime(no);
+if(ans == true)
+{
+    console.log("prime");
+}
+else
+{
+    console.log("not prime");
+}
