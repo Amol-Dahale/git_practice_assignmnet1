@@ -20,11 +20,4 @@ function prime(a)
 
 let no = 25;
 let ans = prime(no);
-if(ans == true)
-{
-    console.log("prime");
-}
-else
-{
-    console.log("not prime");
-}
+(ans == true)? onsole.log("prime"): console.log("not prime");
